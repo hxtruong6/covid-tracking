@@ -4,8 +4,6 @@ import { Layout, Card, Descriptions, Spin, Button, Col, Row } from 'antd';
 import Api from '../../../api';
 import './Dashboard.scss';
 
-import ItemSelect from '../../../components/ItemSelect';
-import ScaleOutput from '../../../containers/ScaleOutput';
 import PRODUCTS from '../../../Utils/Product';
 
 const { Content } = Layout;
@@ -19,7 +17,7 @@ class Dashboard extends Component {
     _isMounted = false;
 
     constructor(props) {
-        super()
+        super(props);
         const defaultTypeItem = Object.keys(PRODUCTS)[0];
         this.state = {
             selectedItem: {
@@ -34,7 +32,6 @@ class Dashboard extends Component {
             measureTimeStart: 0,
             measureTime: 0,
             createdAt: null,
-            ws: null,
         };
     }
 

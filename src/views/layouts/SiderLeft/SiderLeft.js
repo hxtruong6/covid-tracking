@@ -1,14 +1,19 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Layout, Menu, Breadcrumb, Icon } from 'antd';
-import { AreaChartOutlined } from '@ant-design/icons';
+import { Layout, Menu, Image } from 'antd';
+import {
+    AreaChartOutlined,
+    DesktopOutlined,
+    TableOutlined,
+    GlobalOutlined,
+} from '@ant-design/icons';
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
 class SiderLeft extends React.Component {
     constructor(props) {
-        super()
+        super(props);
         console.log('props:', props);
         this.state = {
             collapsed: false,
@@ -18,14 +23,13 @@ class SiderLeft extends React.Component {
     }
 
     onCollapse = (collapsed) => {
-        console.log(collapsed);
         this.setState({ collapsed });
     };
 
     onSelectSider = (value) => {
-        console.log('xxx 100 select side: ', value);
         localStorage.setItem('sider', value.key);
-        this.props.history.push(`/${value.key}`);
+        const { history } = this.props;
+        history.push(`/${value.key}`);
     };
 
     render() {
@@ -33,6 +37,11 @@ class SiderLeft extends React.Component {
         return (
             <Sider collapsible collapsed={collapsed} onCollapse={this.onCollapse}>
                 <div className="logo" />
+                <Image
+                    width={200}
+                    style={{ padding: 5 }}
+                    src="https://image.flaticon.com/icons/png/512/2833/2833315.png"
+                />
                 <Menu
                     theme="dark"
                     defaultSelectedKeys={siderSelected}
@@ -41,19 +50,19 @@ class SiderLeft extends React.Component {
                     onSelect={this.onSelectSider}
                 >
                     <Menu.Item key="dashboard">
-                        <Icon type="desktop" />
+                        <DesktopOutlined />
                         <span>Home</span>
                     </Menu.Item>
                     <Menu.Item key="dashboard">
-                        <Icon type="desktop" />
+                        <GlobalOutlined />
                         <span>Map</span>
                     </Menu.Item>
                     <Menu.Item key="dashboard">
                         <AreaChartOutlined />
                         <span>Chart</span>
-                    </Menu.Item>              
+                    </Menu.Item>
                     <Menu.Item key="statistic">
-                        <Icon type="table" />
+                        <TableOutlined />
                         <span>Table</span>
                     </Menu.Item>
                 </Menu>
