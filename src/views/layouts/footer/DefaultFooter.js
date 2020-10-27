@@ -7,7 +7,7 @@ const { Header, Content, Footer, Sider } = Layout;
 
 const DefaultFooter = () => {
     return (
-        <Footer style={{ textAlign: 'center' }}>
+        <Footer style={{ textAlign: 'center', fontSize: 8 }}>
             Website ©2019 Created by{' '}
             <a target="_blank" href="https://www.facebook.com/hxtruong98">
                 hxtruong

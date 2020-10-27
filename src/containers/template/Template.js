@@ -1,8 +1,7 @@
 import React from 'react';
-import { Media } from 'reactstrap';
 
 const Template = () => {
-    return <Media body>Template container</Media>;
+    return <div>Template container</div>;
 };
 
 export default Template;

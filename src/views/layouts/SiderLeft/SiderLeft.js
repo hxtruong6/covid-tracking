@@ -8,6 +8,8 @@ import {
     GlobalOutlined,
 } from '@ant-design/icons';
 
+import CovidImage from '../../../assets/images/logocovid.png';
+
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
@@ -19,7 +21,6 @@ class SiderLeft extends React.Component {
             collapsed: false,
             siderSelected: localStorage.getItem('sider') || 'dashboard',
         };
-        console.log(localStorage.getItem('sider') || 'fuck');
     }
 
     onCollapse = (collapsed) => {
@@ -38,9 +39,10 @@ class SiderLeft extends React.Component {
             <Sider collapsible collapsed={collapsed} onCollapse={this.onCollapse}>
                 <div className="logo" />
                 <Image
-                    width={200}
+                    preview={false}
+                    width={collapsed ? 50 : 150}
                     style={{ padding: 5 }}
-                    src="https://image.flaticon.com/icons/png/512/2833/2833315.png"
+                    src={CovidImage}
                 />
                 <Menu
                     theme="dark"
@@ -53,15 +55,15 @@ class SiderLeft extends React.Component {
                         <DesktopOutlined />
                         <span>Home</span>
                     </Menu.Item>
-                    <Menu.Item key="dashboard">
+                    <Menu.Item key="map">
                         <GlobalOutlined />
                         <span>Map</span>
                     </Menu.Item>
-                    <Menu.Item key="dashboard">
+                    <Menu.Item key="chart">
                         <AreaChartOutlined />
                         <span>Chart</span>
                     </Menu.Item>
-                    <Menu.Item key="statistic">
+                    <Menu.Item key="table">
                         <TableOutlined />
                         <span>Table</span>
                     </Menu.Item>

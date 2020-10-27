@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Container, Row, Col } from 'reactstrap';
-import { Layout, Menu, Breadcrumb, Icon } from 'antd';
+import { Layout, Menu } from 'antd';
 import Routes from './routes';
 import './index.scss';
 import DefaulHeader from './layouts/header';
@@ -17,7 +16,7 @@ const View = function() {
         <Layout style={{ minHeight: '100vh' }}>
             <SiderLeft />
             <Layout>
-                <DefaulHeader />
+                {/* <DefaulHeader /> */}
                 <Routes />
                 <DefaultFooter />
             </Layout>
