@@ -1,5 +1,5 @@
 {
-    "name": "ncttravel-fe",
+    "name": "covid19-tracking",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -11,6 +11,7 @@
         "d3-fetch": "^2.0.0",
         "d3-scale": "^3.2.3",
         "date-fns": "^2.16.1",
+        "express": "^4.17.1",
         "history": "^4.10.1",
         "prop-types": "^15.7.2",
         "react": "^16.14.0",
@@ -26,6 +27,7 @@
     },
     "scripts": {
         "start": "react-scripts start",
+        "start-build": "node server/server.js",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
