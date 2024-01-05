@@ -1,11 +1,12 @@
 repo_name: hxtruong6/covid-tracking
 report_id: bbe5659a2999498afaf9951f745d9644
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-14T05:13:37+00:00'
+timestamp: '2024-01-05T08:45:20+00:00'
 requested_by: hxtruong6
 provider: github
 branch: main
-detected_tools_count: 38
+detected_tools_count: 39
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/hxtruong6/covid-tracking
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hxtruong6/covid-tracking
   detection_source: Repo Metadata
 - name: Ant Design
   description: A set of high-quality React components
@@ -36,7 +39,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/6112/12101536.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -51,7 +54,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -66,7 +69,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:38:49.000000000 Z
@@ -80,6 +83,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -93,7 +97,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -107,7 +111,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/3350/8261421.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -120,6 +124,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -132,6 +137,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/8935/0Xm63ShM_400x400__1_.jpg
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -144,7 +150,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/.eslintrc
+  detection_source: ".eslintrc"
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
 - name: Git
@@ -155,6 +162,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hxtruong6/covid-tracking
   detection_source: Repo Metadata
 - name: Prettier
   description: 'Prettier is an opinionated code formatter. '
@@ -166,7 +174,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -178,6 +186,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -190,6 +199,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -198,6 +208,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -211,7 +222,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -225,7 +236,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -239,7 +250,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16978/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -253,7 +264,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 04:24:27.000000000 Z
@@ -267,7 +278,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 04:24:27.000000000 Z
@@ -281,7 +292,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 04:24:27.000000000 Z
@@ -295,7 +306,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 04:24:27.000000000 Z
@@ -309,7 +320,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 04:24:27.000000000 Z
@@ -323,7 +334,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -337,7 +348,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -351,7 +362,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:38:49.000000000 Z
@@ -372,7 +383,21 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16209/default_dc80ff0a17bac19253430a4f0f586714841116db.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: hxtruong
+  last_updated_on: 2020-10-26 09:46:31.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -386,7 +411,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:38:49.000000000 Z
@@ -407,7 +432,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16281/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -421,7 +446,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
@@ -435,7 +460,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -449,7 +474,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -463,7 +488,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -477,7 +502,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -491,7 +516,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17696/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -505,7 +530,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18162/default_77d2e8738857baa38b19bd635d4e8653809e03e4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-27 19:08:56.000000000 Z
@@ -519,7 +544,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/hxtruong6/covid-tracking/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: hxtruong
   last_updated_on: 2020-10-26 09:46:31.000000000 Z
