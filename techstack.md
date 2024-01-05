@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 hxtruong6/covid-tracking is built on the following main stack:
+
 - [React](https://reactjs.org/) – Javascript UI Libraries
 - [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
 - [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
@@ -16,11 +17,13 @@ hxtruong6/covid-tracking is built on the following main stack:
 - [date-fns](https://date-fns.org/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 hxtruong6/covid-tracking is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'/> [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
@@ -35,14 +38,15 @@ hxtruong6/covid-tracking is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png' alt='date-fns'/> [date-fns](https://date-fns.org/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [hxtruong6/covid-tracking](https://github.com/hxtruong6/covid-tracking)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|38<br/>Tools used|11/14/23 <br/>Report generated|
+|39<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -195,9 +199,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (22)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (23)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (22)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (23)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -213,6 +217,7 @@ Full tech stack [here](/techstack.md)
 |[eslint-plugin-react-hooks](https://www.npmjs.com/eslint-plugin-react-hooks)|v1.7.0|10/27/20|hxtruong |MIT|N/A|
 |[express](https://www.npmjs.com/express)|v4.17.1|10/27/20|hxtruong |MIT|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
 |[history](https://www.npmjs.com/history)|v4.10.1|10/26/20|hxtruong |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v3.1.0|10/26/20|hxtruong |MIT|N/A|
 |[node-sass](https://www.npmjs.com/node-sass)|v4.14.1|10/27/20|hxtruong |MIT|[CVE-2020-24025](https://github.com/advisories/GHSA-r8f7-9pfq-mjmv) (Moderate)|
 |[pretty-quick](https://www.npmjs.com/pretty-quick)|v2.0.2|10/26/20|hxtruong |MIT|N/A|
 |[prop-types](https://www.npmjs.com/prop-types)|v15.7.2|10/26/20|hxtruong |MIT|N/A|
@@ -227,4 +232,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
